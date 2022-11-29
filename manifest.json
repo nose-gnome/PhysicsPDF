@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+  "name": "Physics & Maths Tutors PDF Viewer",
+  "version": "0.1",
+
+  "description": "Removes ads and pops when viewing PDFs on Physics & Math Tutors website by extracting the actual PDF link from the URL",
+
+  "icons": {
+    "32": "icons/cropped-favicon-32x32.png",
+    "180": "icons/cropped-favicon-180x180.png",
+    "192": "icons/cropped-favicon-192x192.png"
+
+  },
+
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.physicsandmathstutor.com/pdf-pages/?pdf=*"
+      ],
+      "js": [
+        "PhysicsandMathsPDFViewer.js"
+      ]
+    }
+  ],
+
+  "permissions": [
+    "tabs",
+    "*://*.physicsandmathstutor.com/*"
+  ]
+}
