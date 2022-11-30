@@ -1,7 +1,7 @@
 [![Badge Mozilla]][Mozilla]
 ***
 <p align="center">
-<a href="https://addons.mozilla.org/en-GB/firefox/addon/physics-maths-tutors-pdfviewer/="><img src="https://blog.mozilla.org/addons/files/2020/04/get-the-addon-fx-apr-2020.svg" width="200">
+<a href="https://addons.mozilla.org/en-GB/firefox/addon/physics-maths-tutors-pdfviewer/"><img src="https://blog.mozilla.org/addons/files/2020/04/get-the-addon-fx-apr-2020.svg" width="200">
 </p>
 
 ***
