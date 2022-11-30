@@ -2,6 +2,14 @@
   "manifest_version": 2,
   "name": "Physics & Maths Tutors PDF Viewer",
   "version": "0.1",
+  "author": "nose_gnome",
+  "homepage_url": "https://github.com/nose-gnome/PhysicsPDF",
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "PhysandMathsPDF@nosegnome.co.uk"
+    }
+  },
 
   "description": "Removes ads and pops when viewing PDFs on Physics & Math Tutors website by extracting the actual PDF link from the URL",
 
