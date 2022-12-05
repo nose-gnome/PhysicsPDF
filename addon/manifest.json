@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Physics & Maths Tutors PDF Viewer",
   "short_name": "Physics&Maths PDF viewer",
-  "version": "0.2",
+  "version": "0.3",
   "author": "nose_gnome",
   "homepage_url": "https://github.com/nose-gnome/PhysicsPDF",
 
@@ -29,10 +29,19 @@
   "content_scripts": [
     {
       "matches": [
-        "*://*.physicsandmathstutor.com/pdf-pages/?pdf=*"
+        "*://*.physicsandmathstutor.com/pdf-pages/*"
       ],
       "js": [
-        "PhysicsandMathsPDFViewer.js"
+        "PMTPDFViewer.js"
+      ],
+      "run_at":  "document_start"
+    },
+    {
+      "matches": [
+        "*://*.physicsandmathstutor.com/*"
+      ],
+      "js": [
+        "PMTPDFViewer.js"
       ]
     }
   ],
